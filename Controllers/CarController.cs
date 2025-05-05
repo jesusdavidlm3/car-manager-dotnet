@@ -1,9 +1,11 @@
+using CarManager.Models;
+
 class CarController
 {
 
 	private Database db = new Database();
 
-	public CarController(){
+	public CarController(Database db){
 		this.db = db;
 	}
 

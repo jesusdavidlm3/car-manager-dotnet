@@ -1,8 +1,10 @@
+using CarManager.Models;
+
 class ClientController
 {
 	private Database db = new Database();
 
-	public ClientController(){
+	public ClientController(Database db){
 		this.db = db;
 	}
 

@@ -16,15 +16,5 @@ namespace CarManager.Models
             this.Phone = phone;
             this.Address = address;
         }
-
-        public void CreateClient()
-        {
-            Console.WriteLine("Cliente creado");
-        }
-
-        public void EditClient()
-        {
-            Console.WriteLine("Cliente editado");
-        }
     }
 }

@@ -1,8 +1,10 @@
+using CarManager.Models;
+
 class CheckinController
 {
 	private Database db = new Database();
 
-	public CheckinController()
+	public CheckinController(Database db)
 	{
 		this.db = db;
 	}

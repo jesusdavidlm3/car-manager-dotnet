@@ -1,9 +1,11 @@
+using CarManager.Models;
+
 class RegEntryController
 {
 
 	private Database db = new Database();
 
-	public RegEntryController(){
+	public RegEntryController(Database db){
 		this.db = db;
 	}
 
