@@ -15,9 +15,5 @@ namespace CarManager.Models
 			this.CheckinId = checkinId;
 			this.Date = date;
 		}
-
-		public void CreateEntry(){
-			Console.WriteLine("Entrada creada");
-		}
 	}
 }

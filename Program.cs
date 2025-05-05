@@ -5,7 +5,7 @@ namespace CarManager
     public static class CarManager
     {
         static void Main(string[] args){
-            DataBase db = new DataBase();
+            Database db = new Database();
             db.CreateDatabase();
         }
     }
