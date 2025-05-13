@@ -19,7 +19,7 @@ class CarController
 
 	}
 
-	public void GetCar(string carPlates)
+	public List<Checkin> GetCar(string carPlates)
 	{
 
 	}

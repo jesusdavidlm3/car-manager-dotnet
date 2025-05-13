@@ -23,11 +23,6 @@ class ClientController
 
 	}
 
-	public Client GetClientById(string ClientId)
-	{
-
-	}
-
 	public List<Client> GetClientListByName(string param)
 	{
 

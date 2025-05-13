@@ -14,11 +14,6 @@ class CheckinController
 
 	}
 
-	public void EditCheckin(string? id, string? carId, int? clientId, DateTime? checkinDate, DateTime? checkoutDate, string? entranceState)
-	{
-		
-	}
-
 	public List<Checkin> GetCheckinList(string carPlates)
 	{
 		
